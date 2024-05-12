@@ -179,3 +179,11 @@ aside img {
 aside img:hover {
     transform: translate(100px, 20px); /* Move image 100px right and 20px down */
 }
+article img {
+    transition: transform 3s ease; /* Add transition for transform property */
+}
+
+/* Apply rotation when hovering over the article image */
+article img:hover {
+    transform: rotate(720deg); /* Rotate image by 720 degrees */
+}
