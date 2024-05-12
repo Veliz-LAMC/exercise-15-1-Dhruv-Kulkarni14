@@ -170,3 +170,12 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+aside img {
+    padding-bottom: 1em;
+    transition: transform 2s ease; /* Add transition for transform property */
+}
+
+/* Apply transformation when hovering over images */
+aside img:hover {
+    transform: translate(100px, 20px); /* Move image 100px right and 20px down */
+}
