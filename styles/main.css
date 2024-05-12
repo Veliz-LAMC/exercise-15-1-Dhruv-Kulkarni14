@@ -181,6 +181,7 @@ aside img:hover {
 }
 article img {
     transition: transform 3s ease; /* Add transition for transform property */
+    transform-origin: top left; /* Set transform origin to upper left corner */
 }
 
 /* Apply rotation when hovering over the article image */
