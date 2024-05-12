@@ -188,3 +188,12 @@ article img {
 article img:hover {
     transform: rotate(720deg); /* Rotate image by 720 degrees */
 }
+@keyframes moveImages {
+    0%, 100% { transform: translate(0, 0) scale(1); } /* Initial and final positions */
+    50% { transform: translate(100px, 20px) scale(1.4); } /* Midpoint position */
+}
+
+/* Apply animation to images in the aside */
+aside img {
+    animation: moveImages 3s ease-in-out 2s 2 alternate; /* Animation properties */
+}
